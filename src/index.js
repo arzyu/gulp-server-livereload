@@ -201,7 +201,7 @@ module.exports = function(options) {
         match: /<\/html>/,
         fn: prepend
       }, {
-        match: /<\!DOCTYPE.+>/,
+        match: /$/,
         fn: append
       }]
     }));
